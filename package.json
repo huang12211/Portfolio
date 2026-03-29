@@ -1,6 +1,6 @@
 {
   "name": "elaine-portfolio-2024",
-  "version": "1.13.3",
+  "version": "1.14.0",
   "author": "huang12211 (https://github.com/huang12211)",
   "scripts": {
     "dev:spotlight": "spotlight-sidecar",

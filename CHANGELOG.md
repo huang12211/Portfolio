@@ -1,3 +1,10 @@
+# [1.14.0](https://github.com/huang12211/Portfolio2024/compare/v1.13.3...v1.14.0) (2026-03-29)
+
+
+### Features
+
+* updated elaine's easecipes to new website ([98597ee](https://github.com/huang12211/Portfolio2024/commit/98597ee3e37fe5cec7423f4c005594a056ab3ef4))
+
 ## [1.13.3](https://github.com/huang12211/Portfolio2024/compare/v1.13.2...v1.13.3) (2025-12-25)
 
 
