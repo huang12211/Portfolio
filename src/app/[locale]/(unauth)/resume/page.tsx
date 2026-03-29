@@ -102,26 +102,26 @@ export default function Resume(props: { params: { locale: string } }) {
             <ul className="jobDescription">
               <li>
                 Lead R&D end-to-end and
-                <span className="font-semibold">shipped 2 robotic products</span>
+                <span className="font-semibold"> shipped 2 robotic products</span>
                 {' '}
                 for brain, spine and hip and knee surgery.
               </li>
               <li>
                 Build
-                <span className="font-semibold">AI tools</span>
+                <span className="font-semibold"> AI tools</span>
                 {' '}
                 to expedite the documentation and software testing process,
-                <span className="font-semibold">reducing documentation time by 30%.</span>
+                <span className="font-semibold"> reducing documentation time by 30%.</span>
               </li>
               <li>
                 Direct
-                <span className="font-semibold">user and performance testing</span>
+                <span className="font-semibold"> user and performance testing</span>
                 {' '}
                 to inform development, balancing needs with technical feasibility and risk management.
               </li>
               <li>
                 Operate within a complex remote environment with our
-                <span className="font-semibold">multinational cross-functional team in English & French.</span>
+                <span className="font-semibold"> multinational cross-functional team in English & French.</span>
               </li>
             </ul>
             <p className="jobTitle">Innovation Program Coordinator</p>
@@ -129,17 +129,17 @@ export default function Resume(props: { params: { locale: string } }) {
               <li>Fostered innovation in a 200-person R&D department, launching projects with universities, clinicians and hospitals.</li>
               <li>
                 Performed market research and
-                <span className="font-semibold">pitched 5 proposals</span>
+                <span className="font-semibold"> pitched 5 proposals</span>
                 {' '}
                 (some AI) that brought in a
-                <span className="font-semibold">$2M investment.</span>
+                <span className="font-semibold"> $2M investment.</span>
               </li>
               <li>
                 Oversaw the rapid prototyping of an AR total knee arthroplasty surgery device for which a
-                <span className="font-semibold">patent</span>
+                <span className="font-semibold"> patent</span>
                 {' '}
                 was filed, and
-                <span className="font-semibold">100% investment approval</span>
+                <span className="font-semibold"> 100% investment approval</span>
                 {' '}
                 from the board of directors was secured.
               </li>

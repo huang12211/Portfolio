@@ -24,7 +24,7 @@ export default function Design() {
           <div className="mx-auto flex max-w-screen-xl flex-col gap-6 px-6 py-16 md:px-16">
             <div className="flex flex-col gap-2">
               <h1>Elaine's Easecipes</h1>
-              <h2 className="text-orange-400">
+              <h2 className="text-emerald-700">
                 A Website of all of my Family's Favourite Food Recipes
               </h2>
             </div>
@@ -81,17 +81,11 @@ export default function Design() {
           <h3 className="text-center">Development Phase</h3>
           <h3 className="text-lg font-semibold">Tech Stack</h3>
           <p>
-            The frontend of the website has been written in vanilla Javascript as was built using:
+            The website has been written using the Next.js 16 framework as was built using:
           </p>
           <ul className="list-outside list-disc pl-10">
             <li>Tailwind CSS</li>
             <li>Heroicons</li>
-          </ul>
-          <p>
-            The backend of the website has been written in Typescript and was built using:
-          </p>
-          <ul className="list-outside list-disc pl-10">
-            <li>Express API</li>
             <li>Drizzle ORM for better-sqlite3</li>
           </ul>
         </div>
@@ -102,7 +96,7 @@ export default function Design() {
           <h3 className="text-center">What I've Learnt</h3>
           <p>
             This product gave the me chance to learn the essentials web development and has facilitated my communication with the software developpers that I work with on a day to day basis.
-            It's been the project through which I've been self-teaching front-end, back-end and general web development concepts.
+            It's been the project through which I've been self-teaching front-end, back-end and general web development concepts. Later features have been developed with the help of Claude Code.
           </p>
         </div>
       </div>
@@ -113,7 +107,7 @@ export default function Design() {
           <p>
             Please click on the following link to peruse the current state of the website:
             <Link
-              href="https://elainefoodwebsite-frontend.onrender.com/"
+              href="https://elaineseasecipes.com/"
               target="_blank>"
               className="text-sky-500 hover:underline"
             >

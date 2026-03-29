@@ -51,7 +51,7 @@ export default function Design(props: { params: { locale: string } }) {
               title="Patent for Tibial Axis Registration"
               subtitle="A way to perform total knee arthroplasties without pins"
               page_link="/design/pinless-tibia-mechanical-axis/"
-              bg_color="rgb(204 251 241)"
+              bg_color="rgb(254 215 170)"
               alignment="start"
             />
             <DesignProjectCard
@@ -60,7 +60,7 @@ export default function Design(props: { params: { locale: string } }) {
               title="Personal Food Website"
               subtitle="A journal of my family's favourite recipes"
               page_link="/design/food-website/"
-              bg_color="rgb(254 215 170)"
+              bg_color="rgb(197, 243, 219)"
               alignment="end"
             />
           </div>

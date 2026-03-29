@@ -25,7 +25,7 @@ export default function Design() {
           <div className="mx-auto flex max-w-screen-xl flex-col gap-6 px-6 py-16 md:px-16">
             <div className="flex flex-col gap-2">
               <h1>Non-invasive Method for Tibial Mechanical Axis Location</h1>
-              <h2 className="text-teal-500">
+              <h2 className="text-orange-400">
                 A new way to register the tibia for total knee arthroplasties
               </h2>
             </div>
@@ -71,11 +71,11 @@ export default function Design() {
             <p className="text-lg">
               I was the acting
               {' '}
-              <span className="text-teal-500">product manager</span>
+              <span className="text-orange-400">product manager</span>
               {' '}
               while maintaining my secondary role as the
               {' '}
-              <span className="text-teal-500">mechanical designer</span>
+              <span className="text-orange-400">mechanical designer</span>
               {' '}
               of the prototype.
             </p>
@@ -110,7 +110,7 @@ export default function Design() {
               <p className="p-6 text-center">
                 The generic user flow was first mapped out to be used to brainstorm multiple different technological solutions that could be implemented for each step of the workflow using the
                 {' '}
-                <span className="font-bold text-teal-500">Crazy 8s Method</span>
+                <span className="font-bold text-orange-400">Crazy 8s Method</span>
                 .
                 This lead to the generation of 3 different femur and 3 different tibial resection workflows. The pros and cons of each workflow was then presented to leadership.
               </p>
@@ -139,7 +139,7 @@ export default function Design() {
                 The final workflow that was favoured by leadership for the tibia was the one that included a novel way
                 to locate the tibia using hardware that is much
                 {' '}
-                <span className="font-bold text-teal-500">easier to manipulate</span>
+                <span className="font-bold text-orange-400">easier to manipulate</span>
                 {' '}
                 than the traditional tibial alignment guide.
               </p>
@@ -188,7 +188,7 @@ export default function Design() {
             </p>
             <p className="pb-4 text-center text-gray-400">_______</p>
             <div className="flex flex-col gap-2 bg-gray-200 px-6 py-10 text-center">
-              <p className="impactNumber text-teal-500">
+              <p className="impactNumber text-orange-400">
                 100
                 <span className="impactPercent">%</span>
               </p>

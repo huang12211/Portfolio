@@ -147,7 +147,7 @@ const ProjectPopupContent = (props: {
               <p className="flex flex-wrap items-end gap-1">
                 <p className="pt-2 font-bold underline">Codebase:</p>
                 <a
-                  href="https://github.com/huang12211/ElaineFoodWebsite"
+                  href="https://github.com/huang12211/elaines_easecipes_ai"
                   target="_blank>"
                   className="text-sky-600 hover:underline"
                 >
