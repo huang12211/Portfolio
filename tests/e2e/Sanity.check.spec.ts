@@ -17,35 +17,63 @@ test.describe('Sanity', () => {
     test('should display the homepage', async ({ page, baseURL }) => {
       await page.goto(`${baseURL}/`);
 
+      await expect(page).toHaveTitle(/Elaine Huang's Portfolio/);
+
       await expect(
-        page.getByRole('heading', {
-          name: 'Boilerplate Code for Your Next.js Project with Tailwind CSS',
-        }),
+        page.getByText('Elaine Huang', { exact: false }).first(),
       ).toBeVisible();
     });
 
-    test('should navigate to the about page', async ({ page, baseURL }) => {
+    test('should navigate to the design work page', async ({ page, baseURL }) => {
       await page.goto(`${baseURL}/`);
 
-      await page.getByRole('link', { name: 'About' }).click();
-      await expect(page).toHaveURL(/about$/);
+      await page.getByRole('link', { name: 'Design Work' }).click();
+      await expect(page).toHaveURL(/design$/);
 
       await expect(
-        page.getByText('Welcome to our About page', { exact: false }),
+        page.getByRole('heading', { name: 'Design Work' }),
+      ).toBeVisible();
+
+      await expect(
+        page.locator('main').getByRole('link'),
+      ).toHaveCount(4);
+    });
+
+    test('should navigate to the dev work page', async ({ page, baseURL }) => {
+      await page.goto(`${baseURL}/`);
+
+      await page.getByRole('link', { name: 'Dev Work' }).click();
+      await expect(page).toHaveURL(/development$/);
+
+      await expect(
+        page.getByRole('heading', { name: 'Development Work' }),
       ).toBeVisible();
     });
 
-    test('should navigate to the portfolio page', async ({ page, baseURL }) => {
+    test('should navigate to the resume page', async ({ page, baseURL }) => {
       await page.goto(`${baseURL}/`);
 
-      await page.getByRole('link', { name: 'Portfolio' }).click();
-      await expect(page).toHaveURL(/portfolio$/);
+      await page.getByRole('link', { name: 'Resume' }).click();
+      await expect(page).toHaveURL(/resume$/);
 
       await expect(
-        page.locator('main').getByRole('link', {
-          name: /^Portfolio/,
-        }),
-      ).toHaveCount(6);
+        page.getByRole('heading', { name: 'Elaine Huang' }),
+      ).toBeVisible();
+    });
+
+    test('should navigate to the contact page', async ({ page, baseURL }) => {
+      await page.goto(`${baseURL}/`);
+
+      await page.getByRole('link', { name: 'Contact', exact: true }).click();
+      await expect(page).toHaveURL(/contact$/);
+
+      await expect(
+        page.getByRole('heading', { name: 'Let\'s connect!' }),
+      ).toBeVisible();
+
+      await expect(
+        page.getByText('huang12211@gmail.com'),
+      ).toBeVisible();
     });
   });
 });
