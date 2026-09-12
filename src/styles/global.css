@@ -46,19 +46,28 @@
     @apply text-center italic text-base text-gray-400;
   }
   .resumeSectionTitle {
-    @apply text-left font-[Georgia] font-black uppercase border-b-4 border-slate-600 text-lg md:text-xl lg:text-2xl xl:text-3xl my-4;
+    @apply text-left font-[Georgia] font-black uppercase border-b-2 border-slate-600 text-lg md:text-xl lg:text-2xl xl:text-3xl my-4;
   }
   .resumeSectionContent {
     @apply text-sm md:text-base lg:text-lg xl:text-xl;
   }
   .company {
-    @apply font-semibold italic;
+    @apply font-semibold;
+  }
+  .companyLocation {
+    @apply text-gray-600 italic;
   }
   .jobTitle {
-    @apply text-gray-600 font-bold;
+    @apply text-gray-600 font-black;
   }
   .jobDescription {
     @apply list-disc list-outside ml-8 mb-4;
+  }
+  .highlight {
+    @apply underline underline-offset-1;
+  }
+  .tools {
+    @apply text-gray-400 italic font-semibold;
   }
   .entryDate {
     @apply flex flex-row justify-between gap-4;
