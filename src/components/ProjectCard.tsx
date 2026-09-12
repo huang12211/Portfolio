@@ -17,7 +17,7 @@ const ProjectCard = (props: {
       <button
         onClick={() => openPopup(true)}
       >
-        <div className="h-80 w-72 rounded-xl border-2 shadow-lg duration-150 hover:scale-105 hover:shadow-xl">
+        <div className="h-80 w-72 rounded-xl border-2 shadow-[4px_4px_4px_rgba(0,0,0,0.25)] duration-150 hover:scale-105 hover:hover:shadow-[4px_4px_4px_rgba(0,0,0,0.5)]">
           <div className="h-64 overflow-hidden p-2">
             <Image
               src={props.card_image_src}

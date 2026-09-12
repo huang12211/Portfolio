@@ -44,7 +44,7 @@ export default function Design() {
             <div className="caseIntro">
               <p>
                 ROSA ONE Brain was
-                <span className="font-medium text-pink-500"> the first neurosurgical robot</span>
+                <span className="font-medium text-pink-500"> one of the first neurosurgical robots</span>
                 {' '}
                 to market and is still one of the most beloved robots in the USA.
               </p>
@@ -288,7 +288,7 @@ export default function Design() {
           <div className="mx-auto my-10 flex max-w-screen-xl flex-col gap-4 px-6 py-4 text-lg md:px-16">
             <h3 className="text-center">Design Phase</h3>
             <h4>Establishing a new Design System</h4>
-            <div className="grid grid-cols-1 justify-items-center gap-4 lg:grid-cols-2 lg:gap-10">
+            <div className="grid grid-cols-1 justify-items-center gap-2 lg:gap-6">
               <div className="w-5/6 lg:hidden">
                 <Image
                   src="/assets/images/ROSAOneApp.png"
@@ -297,23 +297,49 @@ export default function Design() {
                   height="1090"
                   className="h-auto w-full object-cover"
                 />
-                <p className="imageLabel">UI from original release</p>
+                <p className="imageLabel">UI from 2028 release</p>
               </div>
-              <p>
-                The orignal release was launched in 2008, so the existing UI application's design system is dated. An initiative was launched at the very
-                start to align the new version of the ROSA application with the style of the orthopeadic products in Zimmer Biomet's existing robotic portfolio.
-                This was the first time that a coordinated effort was made to document the existing design system of the Knee, Hip and Shoulder applications so as
-                to be able to leverage them for the more modern Brain application.
-              </p>
-              <div className="hidden items-center lg:grid lg:grid-cols-1">
+              <div className="w-5/6 lg:hidden">
                 <Image
-                  src="/assets/images/ROSAOneApp.png"
-                  alt="ROSA One Application Screen"
+                  src="/assets/images/Optimize.webp"
+                  alt="ROSA Optimize Application Screen"
                   width="2458"
                   height="1090"
                   className="h-auto w-full object-cover"
                 />
-                <p className="imageLabel">UI from original release</p>
+                <p className="imageLabel">ROSA Knee Optimize release</p>
+              </div>
+              <p>
+                The orignal release was launched in 2008, so the existing UI application's design system is dated. An initiative was launched at the very
+                start to align the new version of the ROSA application with the style of the orthopeadic products in Zimmer Biomet's existing robotic portfolio.
+                This was the first time that a coordinated effort was made to document the existing
+                {' '}
+                <span className="font-medium text-pink-500">design system</span>
+                {' '}
+                of the Knee, Hip and Shoulder applications so as
+                to be able to leverage them for the more modern Brain application.
+              </p>
+              <div className="hidden items-center lg:grid lg:grid-cols-2 lg:gap-12">
+                <div>
+                  <Image
+                    src="/assets/images/ROSAOneApp.png"
+                    alt="ROSA One Application Screen"
+                    width="2458"
+                    height="1090"
+                    className="h-auto w-full object-cover"
+                  />
+                  <p className="imageLabel">UI from original release</p>
+                </div>
+                <div>
+                  <Image
+                    src="/assets/images/Optimize.webp"
+                    alt="ROSA Optimize Application Screen"
+                    width="2458"
+                    height="1090"
+                    className="h-auto w-full object-cover"
+                  />
+                  <p className="imageLabel">ROSA Knee Optimize release</p>
+                </div>
               </div>
             </div>
 
