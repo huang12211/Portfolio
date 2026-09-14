@@ -1,0 +1,8 @@
+version: 2
+snapshot:
+  readiness:
+    # CI runners can be slow to cold-render image-heavy pages (e.g. /design,
+    # /development); give readiness checks more headroom than the "balanced"
+    # preset's ~10s default so snapshots don't retry into the Playwright test
+    # timeout.
+    timeoutMs: 20000
