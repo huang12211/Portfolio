@@ -1,3 +1,5 @@
+// For more info, see https://github.com/storybookjs/eslint-plugin-storybook#configuration-flat-config-format
+
 import antfu from '@antfu/eslint-config';
 import nextPlugin from '@next/eslint-plugin-next';
 import jestDom from 'eslint-plugin-jest-dom';
@@ -61,7 +63,6 @@ export default antfu({
     'ts/consistent-type-definitions': ['error', 'type'], // Use `type` instead of `interface`
     'react/prefer-destructuring-assignment': 'off', // Vscode doesn't support automatically destructuring, it's a pain to add a new variable
     'node/prefer-global/process': 'off', // Allow using `process.env`
-    'test/index': 'error', // Add padding in test files, remove once https://github.com/vitest-dev/eslint-plugin-vitest/issues/509 is fixed
     'test/prefer-lowercase-title': 'off', // Allow using uppercase titles in test titles
   },
 });
