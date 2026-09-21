@@ -4,6 +4,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+import { FigmaEmbed } from '@/components/FigmaEmbed';
+
 export async function generateMetadata() {
   // const t = await getTranslations({
   //   locale: props.params.locale,
@@ -68,13 +70,11 @@ export default function Design() {
           <h3 className="text-center">Design Phase</h3>
           <h4 className="text-lg font-semibold">Wireframes in Figma</h4>
           <div>
-            <iframe
-              // style={{border: '1px solid rgba(0, 0, 0, 0.1)'}}
+            <FigmaEmbed
               title="figma low fidelity prototype"
-              width="350"
-              height="650"
+              width={320}
+              height={650}
               src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FpijcVhQPrJIuNDDJV64tVJ%2FWireFrames---Elaine's-Eats%3Ftype%3Ddesign%26node-id%3D10-1131%26scaling%3Dscale-down%26page-id%3D10%253A356%26starting-point-node-id%3D10%253A1131"
-              allowFullScreen
               className="mx-auto max-h-screen"
             />
           </div>
