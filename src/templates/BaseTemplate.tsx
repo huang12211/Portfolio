@@ -33,7 +33,7 @@ const BaseTemplate = (props: {
         </main>
 
         <footer className="border-t border-gray-300 bg-slate-800 py-8 text-center text-xs text-white md:text-sm">
-          {`© Copyright ${new Date().getFullYear()} ${AppConfig.name}. ${t('made_with')} `}
+          {`© Copyright ${new Date().getFullYear()} ${AppConfig.name}. ${t('made_with')}`}
           .
 
         </footer>

@@ -1,4 +1,3 @@
-// import { PDFWindow } from '@/components/PDFWindow';
 import Image from 'next/image';
 import Link from 'next/link';
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
@@ -21,9 +20,6 @@ export default function Resume(props: { params: { locale: string } }) {
   return (
     <div className="mx-auto max-w-screen-xl px-6 pb-4 pt-16 md:px-16">
       <div>
-        {/* <PDFWindow
-          pdf_path="/assets/files/Elaine_Huang_CV.pdf"
-        /> */}
         <div className="mx-0 pb-4 md:mx-10">
           <div className="flex flex-col gap-4 md:shrink md:flex-row md:justify-between md:gap-2">
             <h1 className="flex shrink flex-nowrap place-content-start text-left text-4xl uppercase md:text-5xl lg:text-5xl xl:text-6xl">Elaine Huang</h1>
