@@ -22,7 +22,7 @@ export default function Resume(props: { params: { locale: string } }) {
       <div>
         <div className="mx-0 pb-4 md:mx-10">
           <div className="flex flex-col gap-4 md:shrink md:flex-row md:justify-between md:gap-2">
-            <h1 className="flex shrink flex-nowrap place-content-start text-left text-4xl uppercase md:text-5xl lg:text-5xl xl:text-6xl">Elaine Huang</h1>
+            <h1 className="flex shrink flex-nowrap place-content-start text-left text-3xl uppercase md:text-4xl lg:text-4xl xl:text-5xl">Elaine Huang</h1>
             <div className="flex shrink flex-col gap-2">
               <div className="resumeSectionContent flex shrink items-center gap-2">
                 <Image
@@ -115,9 +115,11 @@ export default function Resume(props: { params: { locale: string } }) {
                 <span className="highlight">user research;</span>
                 {' '}
                 balancing
+                {' '}
                 <span className="highlight">technical feasibility</span>
                 {' '}
                 with timelines and
+                {' '}
                 <span className="highlight">risk management</span>
                 .
                 <span className="tools"> (PRDs, Figma, User flows, Human Factors & Ergonomics)</span>
@@ -128,7 +130,8 @@ export default function Resume(props: { params: { locale: string } }) {
                 <span className="highlight"> AI tools</span>
                 {' '}
                 adoption, to expedite the documentation and GUI testing process,
-                <span className="highlight"> reducing documentation time by 30%.</span>
+                {' '}
+                <span className="highlight">reducing documentation time by 30%.</span>
               </li>
               <li>
                 Key contributor to the
@@ -162,6 +165,7 @@ export default function Resume(props: { params: { locale: string } }) {
                 {' '}
                 {' '}
                 (some AI) that brought in a
+                {' '}
                 <span className="highlight">$2M investment.</span>
               </li>
               <li>
@@ -177,6 +181,7 @@ export default function Resume(props: { params: { locale: string } }) {
                 {' '}
                 {' '}
                 and
+                {' '}
                 <span className="highlight">100% funding</span>
                 {' '}
                 {' '}
@@ -227,6 +232,7 @@ export default function Resume(props: { params: { locale: string } }) {
               AI-native food website designed and built end-to-end from design to implementation and deployment.
               Includes a Gemini assistant ("Pitaya Pal") that provides recipe recommendations using RAG over the database.
               Live at
+              {' '}
               <a href="https://elaineeasecipes.com" target="_blank" className="text-sky-600 hover:underline">elaineeasecipes.com</a>
               .
               <span className="tools"> (Figma, Lovable, React, TypeScript, SQLite, TailwindCSS, Railway)</span>
